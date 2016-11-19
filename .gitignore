@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/RemoveEmptyRuns/.vs/RemoveEmptyRuns/v14
+/RemoveEmptyRuns/RemoveEmptyRuns/bin/x86/Debug
+/RemoveEmptyRuns/RemoveEmptyRuns/obj
