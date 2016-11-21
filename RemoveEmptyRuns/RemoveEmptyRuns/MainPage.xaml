@@ -11,6 +11,7 @@
         <TextBlock local:TextBlockExtension.RemoveEmptyRuns="True">
             <Run Text="123" />
             <Run Text="456" />
+            <Run Text="{x:Bind MyProperty, Mode=OneWay}" />
             <Run Text="789" />
             <Run Text=" " local:TextBlockExtension.PreserveSpace="True" />
             <Run Text="foo" />

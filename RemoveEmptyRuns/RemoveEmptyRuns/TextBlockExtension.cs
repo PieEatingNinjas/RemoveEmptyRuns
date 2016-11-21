@@ -58,7 +58,8 @@ namespace RemoveEmptyRuns
             tb.Loaded -= Tb_Loaded;
 
            var spaces = tb.Inlines.Where(a => a is Run 
-                && string.IsNullOrWhiteSpace(((Run)a).Text) 
+                && string.IsNullOrWhiteSpace(((Run)a).Text)
+                && ((Run)a).Text == " "
                 && !GetPreserveSpace(a)).ToList();
             spaces.ForEach(s => tb.Inlines.Remove(s));
         }
